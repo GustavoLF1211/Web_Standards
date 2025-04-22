@@ -1,0 +1,21 @@
+h1{ 
+    color: aquamarine; background-color: black;
+}
+h2{
+    color: blue; background-color: dimgray;
+}
+h3{
+    color: blueviolet; background-color: cadetblue;
+}
+h4{
+    color: blueviolet; background-color: cadetblue;
+}
+h5{
+    color: blue; background-color: dimgray;
+}
+h6{
+    color: aquamarine; background-color: black;
+}
+#Footer{
+    color: fuchsia; margin-top: 1000px;
+}
