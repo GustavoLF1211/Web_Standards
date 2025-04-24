@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    border: 20px solid red;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    transform: scale(1.1);
+    background: linear-gradient(orange, yellow)
+}
