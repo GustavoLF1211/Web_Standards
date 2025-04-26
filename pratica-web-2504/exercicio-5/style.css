@@ -1,0 +1,13 @@
+#Titulo-1{
+    color: antiquewhite;
+    background-color: blue;   
+}
+#Titulo-2{
+    color: white;
+    background-color: green;   
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-bottom: block 5px;
+}
