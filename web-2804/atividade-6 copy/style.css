@@ -1,0 +1,40 @@
+body {
+    background-color: azure;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contador {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+button {
+    padding: 30px;
+    color: maroon;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.imagens-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 0 50px; /* Espaçamento lateral */
+}
+
+.mclovin {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.teamo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+}
