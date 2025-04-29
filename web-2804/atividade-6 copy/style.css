@@ -9,6 +9,12 @@ body {
     margin: 20px 0;
 }
 
+#numerosorte{
+    font-size: 50px;
+    margin: 20px 0;
+    color: goldenrod;
+}
+
 button {
     padding: 30px;
     color: maroon;
