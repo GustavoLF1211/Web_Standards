@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    border: 5px solid black;
+}
+#num1{
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+}
+#num2{
+    width: 60px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+}
+button{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px dashed black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#result{
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+}
