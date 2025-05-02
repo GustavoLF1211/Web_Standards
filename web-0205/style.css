@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+#numeroCliente{
+    width: 300px;
+    height: 30px;
+}
+#numeroCliente:focus{
+    border: 2px dashed #0000FF;
+    margin-right: 20px;
+}
+#verificar{
+    width: 60px;
+    height: 35px;
+}
+p{
+    font-size: 50px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
