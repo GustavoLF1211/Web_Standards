@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    margin: 400px;
+    background-color: lightblue;
+}
+
+#changeText {
+    width: 150px;
+    height: 75px;
+    transition: all 0.3s ease; 
+}
+
+#changeText:hover {
+    background-color: lightgreen;
+    width: 180px;
+    height: 90px;
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#changeText:active {
+    background-color: lightblue;
+}
+#changeText:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: inherit;
+}
+#text{
+    transition: opacity 0.5s ease;
+}
