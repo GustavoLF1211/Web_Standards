@@ -1,0 +1,88 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color: lightgray;
+    text-decoration: underline;
+    margin: 25px;
+}
+#comprasContainer{
+    margin-top: 20px;
+    margin-left: 70px;
+    display: flex;
+    border-radius: 5px;
+    gap: 20px;
+}
+#addcompra{
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#addcompra:hover{
+    background-color: gray;
+    border: 2px dashed;
+}
+#compraInput{
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+#compraInput:focus{
+    outline: none;
+    border: 1px solid gray;
+    margin-right: 5px;
+}
+#listadecompra{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 70px;
+    width: 300px;
+}
+#listadecompra li{
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+#listadecompras li:hover{
+    background-color: gray;
+    cursor: pointer;
+    border: 2px dashed;
+}
+#listadecompras li.completed{
+    background-color: lightgray;
+    text-decoration: line-through;
+}
+#listadecompras li.completed button {
+    text-decoration: none;
+}
+button.delete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button.delete:hover{
+    background-color: darkred;
+    border: 2px solid;
+}
+button.complete{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
