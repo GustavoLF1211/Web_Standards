@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: lightgray;
+    display: flex;
+    margin: 15px; 
+}
+#squareLogo{
+    background-color: darkslategray;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+h1{
+    font-size: 20px;
+    padding-top: 5px;
+}
+#squareProduto{
+    background-color: darkblue;
+    width: 300px;
+    height: 300px;
+}
+h2{
+    color: darkslategray;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#botaoCompra{
+    width: 100px;
+    height: 60px;
+    background-color: darkgreen;
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;     
+}
+#botaoCompra:hover{
+    background-color: lightgreen;
+    color: black;
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.5s;
+    cursor: pointer;
+}
