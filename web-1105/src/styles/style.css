@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 20px;
+    text-decoration: darkslategray;
+    display: flex;
+    justify-content: space-between;
+}
+#logoSquare{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+#artigo1Square{
+    width: 100px;
+    height: 60px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 17);
+}
+#artigo2Square{
+    width: 100px;
+    height: 60px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 17);
+}
+#artigo3Square{
+    width: 100px;
+    height: 60px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(17, 17, 17);
+}
+#artigosContainer{
+    justify-content: space-between;
+    margin: 60px;
+    display: flex;
+}
+#h2sArtigos{
+    text-decoration: underline;
+    color: black;
+    padding: 40px;
+}
+#textosArtigos{
+    color: rgb(97, 97, 97);
+    padding: 40px;
+}
