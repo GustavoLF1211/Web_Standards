@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.square-logo{
+    width: 100px;
+    height: 50px;
+    background-color: darkslateblue;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+input{
+    width: 700px;
+    padding: 5px;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+    border: 2px solid darkslateblue;
+}
+#login-nav{ 
+    margin-left: auto;
+    gap: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+#login-nav:hover{
+    background-color: darkslateblue;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.container-pesquisa {
+    display: flex;
+    align-items: center; 
+    text-align: left;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 160px;  
+    margin-top: 40px; 
+    margin-bottom: 40px;        
+}
+.square-pesquisa{
+    width: 10px;
+    background-color: darkorchid;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+a:visited{
+    color: darkslateblue;
+}
+a p{
+    text-decoration: none;
+    color: lightslategray;
+}
+.back-to-top{
+    position: fixed;
+    font-size: 15px;
+    bottom: 20px;
+    right: 20px;
+    width: 70px;
+    height: 50px;   
+    color: darkmagenta;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
