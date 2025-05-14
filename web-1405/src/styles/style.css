@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.square-logo{
+    width: 30px;
+    height: 15px;
+    background-color: blueviolet;
+    border-radius: 9999px;
+}
+#home{  
+    text-decoration: none;
+    text-shadow: 2px;
+    font-weight: bold;  
+    color: black;
+    padding-left: 5px;
+}
+
+nav{
+    display: flex;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    height: 30px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+#left-button{
+    margin-left: auto;
+}
+#left-button a{
+    padding: 10px;
+    padding-right: 20px;
+}
+#left-button a:hover{
+    color: purple;
+}   
+#left-button a:visited{
+    color: darkblue;
+}
+#button-login{
+    width: 120px;
+    height: 20px;
+    border-radius: 24px;
+}
+#button-login:hover{
+    background-color: lightskyblue;
+    cursor: pointer;
+}   
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+.hero{
+    width: auto;
+    height: 100px;
+    margin: 40px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
+    background-color: #c4c4c4;
+    border-radius: 24px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+}
+.button-acess{
+    width: 120px;
+    height: 20px;
+    border-radius: 24px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
