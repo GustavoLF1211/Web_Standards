@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    font-size: 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 24px;
+    background-color: aliceblue;
+    align-items: center;
+    margin: 0px 10px 0 10px;   
+}
+.logo-conteudo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.square-logo{
+    width: 75px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 24px; 
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.button-nav{
+    width: 125px;
+    height: 30px;
+    border-radius: 24px;
+}
+.container-introducao{
+    padding: 10px;
+}
+.textos-container-textos{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.container-textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: aliceblue;
+    border: gainsboro solid 1px;
+    margin-bottom: 20px;
+}
+h2{
+    border: #000 solid 1px;
+    border-radius: 24px;
+    font-size: 20px;
+    padding: 10px;	
+}
+.button-ler{
+    width: 80%;
+    height: 30px;
+    border-radius: 24px;
+}
+.square-whatsapp{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(40, 173, 40);
+    border-radius: 9999px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000; 
+}
